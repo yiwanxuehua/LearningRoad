@@ -1,0 +1,80 @@
+---
+layout:     post
+title:      "jDK动态代理"
+subtitle:   " \"一边生活 | 一边代码\""
+date:       2019-06-25
+author:     "wuyi"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Java
+---
+
+
+
+
+## Java动态代理机制
+
+## 静态代理
+1. 什么是静态代理?
+   假设一个类StudentServiceImpl中有个方法负责输出Student的信息(name,age)等。现在想在该方法之前先输出日志。如何实现？   
+   新建一个类StudentServiceProxy，实现StudentService接口，并在其中新建StudentServiceImpl，先打印日志，再实现服务调用
+      
+       public class StudentServiceImpl implements StduentService{
+             public String print(Student s){
+                // do output Student information；
+             }            
+       }
+       
+       public class StudentServiceProxy implements StduentService{
+             public String print(Student s){
+                StudentServiceImpl proxy = new StudentServiceImpl();
+                // do log print;
+                proxy.print(s);
+             } 
+       }
+         
+## 动态代理      
+   Java中是根据类的Class文件创建的实例对象：`StudentServiceImpl proxy = new StudentServiceImpl();` ,
+    我们可以通过Class对象的信息获取被代理类的构造器、方法、属性等信息，从而避免写死代码:      
+   
+       public static Object getProxy(final Object tar) throws Exception{
+            // 获取Class的类信息
+            Class proxyClass = Proxy.getProxyClass(tar.getClass().getClassLoader(), tar.getClass().getInterfaces());
+            // 获取构造器，需传入InvocationHandler.class参数；
+            Constructor constructor = proxyClass.getConstructor(InvocationHandler.class);
+            //最终调用的都是invoke方法；
+            Object proxyService = constructor.newInstance(
+                    new InvocationHandler() {
+                        public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                            System.out.println("start");
+                            Object res = method.invoke(tar, args);
+                            return res;
+                        }
+                    }
+            );
+            return proxyService;
+        }
+        // 调用逻辑
+        Object proxy = getProxy(new StudentServiceImpl());
+        Student student = Student.builder().name("令狐冲").age("21").build();
+        System.out.println(((StudentService) proxy).print(student));
+  
+ # JDK动态代理实际使用
+
+    实际使用直接使用Proxy的newProxyInstance方法生成代理：
+    
+    private static Object getProxy(final Object tar) throws Exceptiohn{    
+        Object proxy = Proxy.newProxyInstance(
+            tar.getClass().getClassLoader(),
+            tar.getClass().getInterfaces(),
+            new InvocaHandler(){
+                public Object invoke(Object proxy, Method method, Objects[] args){
+                    // do someThing ...
+                    Object res = method.invoke(target, args);
+                    // do someThing...
+                    return res;
+                }
+            }
+        )       
+    }
+

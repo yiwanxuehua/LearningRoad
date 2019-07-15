@@ -1,0 +1,68 @@
+---
+layout:     post
+title:      "Jexl3基本概述"
+subtitle:   " \"一边生活 | 一边代码\""
+date:       2019-06-28
+author:     "wuyi"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - jexl3
+---
+
+>
+    Apache的一款脚本表达式计算引擎
+
+### 概述
+
+#### 1: 元素Elements
+- 使用`##`或者`//`作为注解,如果有多行的话使用`/*...*/`作为注解,这点和Java类似;
+- 变量的命名只能以字母,下划线或者`$`开头,且jexl对变量的大小写敏感,不支持连字符形式的命名方式,如`is-true`这种;
+- jexl的脚本(Script)使用`return`作为返回;
+- 本地变量的命名使用`var x`这种,可以直接设置为`var x = 3`;
+
+#### 2: 数据类型Literals
+- 除了与java的8中基本数据类型相似外,还提供了一些其他的数据类型
+
+#### 3: 函数Functions
+
+- `empty` null值\空字符串\空数组\空集合等都符合该条件; 举例: `if (!empty(f12))
+  return 1; return -1`;
+
+- `size` 判断大小,注意`null`值会返回0;举例: `return size("hello")`,返回5;
+
+- `new` 新建对象,`new ("java.lang.Integer", 10)`
+  ,将新建一个值为`10`的`Integer`;
+
+- `function` 直接在脚本中定义的函数,如 `var f = function(x,y){x + y}; return
+  f(1,2)`;
+
+- `ns:function`
+  定义在脚本之外的表达式,在创建引擎时,将其注入到`namespace`中,如下,使用时在脚本中`date:early(x,
+  y)`,其中early为`DateUtil`工具类中的某个方法;
+
+        JexlEngine jexlEngine = new JexlBuilder()
+                        .namespaces(Collections.singletonMap("date", new
+        DateUtil())).create();
+
+#### 4:操作符
+- `+-*/`
+  加减乘除这种需要各个参数都不能为`null`,否则会报错(类型转换),此时可以进行判空;
+
+- `&&,||,!` 与或非这种,`if((f1 == 1) && (f2 == 2))`
+  这种在`f1=null`时不会报错, 但返回的是`false`;
+
+- `&,|` 位操作这种在某个元素为`null`时也会抛出异常;
+
+- 其他操作符
+
+#### 5:条件判断循环
+- `if{}else{}` 可以写`if(f1==2) return 2;return
+  3;`这种,但是用`else`时必须写成`if(f1 ==1){return 2;}else{return
+  1;}`不写`{}`会抛出异常;
+
+- `for` 支持`for(item : list){ x += item; }`这种,但不支持`foreach`语句
+
+- `while` 支持`while (x < 10) { x = x + 2; }`
+
+- `continue`和`break`
+

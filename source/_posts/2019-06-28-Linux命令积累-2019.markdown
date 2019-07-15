@@ -1,0 +1,46 @@
+---
+layout:     post
+title:      "每天一个Linux指令"
+subtitle:   " \"一边生活 | 一边代码\""
+date:       2019-06-28
+author:     "wuyi"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Linux命令
+---
+
+>
+    记录下常用的Linux命令
+
+### 查看
+-  查看磁盘空间
+
+   > ds -h : 查看磁盘信息,以分区的形式显示;
+   >
+   > du -h : 子文件夹的空间大小
+   >
+   > du -ah : 查看当前位置下所有磁盘及其子文件占用空间
+
+		#-h:用K、M、G的人性化形式显示
+		#-a:显示目录和文件
+
+-   文件上传与下载
+
+    > 可以通过FTP的方式进行远程机器上的文件上传与下载,首先需要安装`lszrz`包: `yum
+    > -y install lrzsz`
+    >
+    > `rz` : 下载,即received;
+    >
+    > `sz` : 上传,即send;
+    >
+
+-   进程查看与杀死
+    > `ps -aux` : 可以使用管道进行过滤.
+    > 他使用者的进程，和PID，CPU占有率，记忆体使用情况，运行状态等
+    >
+    > `kill -9 进程号` : 进程号可在上步查出
+    >
+    > ![image](/source/images/linux1.png)
+
+
+

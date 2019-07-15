@@ -1,0 +1,59 @@
+---
+layout:     post
+title:      "Reids安装"
+subtitle:   " \"一边生活 | 一边代码\""
+date:       2019-06-25
+author:     "wuyi"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Redis
+---
+
+
+## Redis 安装教程
+
+### 步骤
+
+1：下载软件包 `wget http://download.redis.io/releases/redis-4.0.8.tar.gz`
+2：linux下的/usr/local文件用于常用软件的安装目录，将该软件包copy到该目录下：
+
+    cp redis-4.0.8.tar.gz /usr/local
+
+3：解压安装包,生成解压文件
+
+    tar -zxvf redis-4.0.8.tar.gz
+
+4：解压文件编译：
+
+    make PREFIX=/usr/local/redis install
+    或者直接 make
+
+5：编译后会在/usr/local/bin下生成如下结构,此时以下redis命令可在任何位置执行。若想删除redis，只需删除这些文件和解压包and压缩包。
+
+![reids](/img/redis.png)
+
+    文字不显示解决方案 : https://www.zhihu.com/question/31123165?sort=created
+
+6：此时直接启动./bin/redis-server 虽然可以启动，但不能后台运行，需要修改下配置文件：
+
+    vim /usr/local/redis-4.0.8/redis.conf
+    /daemonize 搜索该位置
+    将no 改为 yes;
+
+7：启动redis，设置配置文件，否则使用无配置文件启动：
+
+    redis-server /usr/local/redis-4.0.8/redis.conf
+
+8：查看是否有redis进程,可看到启动的ip和port：
+
+    ps aux | grep redis
+
+9：关闭redis服务,
+
+    redis-cli shutdown
+
+9：设置开机启动:
+
+    vim /etc/rc.local
+    /usr/local/bin/redis-server /usr/local/bin/redis.conf
+

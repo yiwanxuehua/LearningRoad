@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8bb725f-be8e-44d6-8cd1-672d4a99885b" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/CodeDemo/target/" />
+    <ignored path="CodeDemo/CodeDemo.iml" />
+    <ignored path=".idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__io_netty_netty_buffer_4_1_24_Final.xml" />
+    <ignored path=".idea/libraries/Maven__io_netty_netty_codec_4_1_24_Final.xml" />
+    <ignored path=".idea/libraries/Maven__io_netty_netty_common_4_1_24_Final.xml" />
+    <ignored path=".idea/libraries/Maven__io_netty_netty_handler_4_1_24_Final.xml" />
+    <ignored path=".idea/libraries/Maven__io_netty_netty_resolver_4_1_24_Final.xml" />
+    <ignored path=".idea/libraries/Maven__io_netty_netty_transport_4_1_24_Final.xml" />
+    <ignored path=".idea/libraries/Maven__io_projectreactor_reactor_core_3_1_6_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" />
+    <ignored path=".idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+    <ignored path=".idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_context_support_5_0_8_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_oxm_5_0_8_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" />
+    <ignored path=".idea/compiler.xml" />
+    <ignored path=".idea/encodings.xml" />
+    <ignored path=".idea/learningRoad.iml" />
+    <ignored path=".idea/markdown-exported-files.xml" />
+    <ignored path=".idea/misc.xml" />
+    <ignored path=".idea/modules.xml" />
+    <ignored path=".idea/uiDesigner.xml" />
+    <ignored path=".idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Boilerplate of Hux Blog</find>
+      <find>theme</find>
+      <find>deal</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Code/Proxy.java" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/StudentService.java" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/ProxyTest.java" />
+        <option value="$PROJECT_DIR$/总结/Java动态代理.md" />
+        <option value="$PROJECT_DIR$/总结/redis安装.md" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/resources/application.yml.fxml" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/Applciation.java" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/docs/README.md" />
+        <option value="$PROJECT_DIR$/docs/redis安装.md" />
+        <option value="$PROJECT_DIR$/theme/_config.yml" />
+        <option value="$PROJECT_DIR$/docs/_config.yml" />
+        <option value="$PROJECT_DIR$/README.zh.md" />
+        <option value="$PROJECT_DIR$/_posts/redis安装.md" />
+        <option value="$PROJECT_DIR$/_posts/Java动态代理.md" />
+        <option value="$PROJECT_DIR$/_posts/Java_Dynamic_Proxy.md" />
+        <option value="$PROJECT_DIR$/_posts/Java_Dynamic_Proxy.markdown" />
+        <option value="$PROJECT_DIR$/_posts/redis_setup.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_posts/2019-06-25-DynamicProxy-2019.markdown" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2019-06-25-RedisSetup-2019.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-06-25-RedisSetup-2019.markdown" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/Test/Application.java" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/test/java/Test/Redis缓存/RedisConfigTest.java" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/Test/1.txt" />
+        <option value="$PROJECT_DIR$/_posts/2019-06-25-SpringBoot整合Redis-2019.markdown" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/Test/Redis缓存/RedisTest.java" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/Test/Redis缓存/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/Test/Redis缓存/RedisService.java" />
+        <option value="$PROJECT_DIR$/CodeDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/_posts/2019-06-28-喜欢与爱-2019.markdown" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/Test/JDK动态代理/ProxyTest.java" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/java/Test/JDK动态代理/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/_posts/2019-07-04-Jexl3学习-2019.markdown" />
+        <option value="$PROJECT_DIR$/CodeDemo/src/main/resources/redisson.yml" />
+        <option value="$PROJECT_DIR$/_posts/2019-07-15-设计模式-策略模式-2019.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2019-06-28-Linux命令积累-2019.markdown" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Unknown" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Unknown" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Unknown" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-cache:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Unknown" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-cache:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot-starter:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Unknown" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-cache:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot-starter:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Unknown" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-cache:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot-starter:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot-autoconfigure:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Unknown" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-cache:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot-starter:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot-starter-logging:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Unknown" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-cache:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework:spring-context-support:5.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Unknown" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-cache:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework:spring-context-support:5.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework:spring-beans:5.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Unknown" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-cache:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework:spring-context-support:5.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework:spring-context:5.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-255" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563169229515" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="D:/MyLearningRoad/LearningRoad" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.58441556" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Test.Redis缓存" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learningRoad\learningRoad" />
+      <recent name="D:\learningRoad\learningRoad\_posts" />
+      <recent name="D:\learningRoad\learningRoad\img" />
+      <recent name="D:\learningRoad\learningRoad\_site\img" />
+      <recent name="D:\自我学习\learningRoad\theme\_posts" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\learningRoad\learningRoad\CodeDemo\src\main\resources" />
+      <recent name="D:\learningRoad\learningRoad\CodeDemo\src\main\java\Test\Redis缓存" />
+      <recent name="D:\learningRoad\learningRoad\img" />
+      <recent name="D:\learningRoad\learningRoad\_site\img" />
+      <recent name="D:\自我学习\learningRoad" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.JDK动态代理.ProxyTest" />
+      <module name="CodeDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Redis缓存.RedisTest" />
+      <module name="CodeDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.Redis缓存.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.JDK动态代理.StudentServiceImpl" />
+      <module name="CodeDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.JDK动态代理.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="CodeDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Test.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.StudentServiceImpl" />
+        <item itemvalue="Application.RedisTest" />
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8bb725f-be8e-44d6-8cd1-672d4a99885b" name="Default Changelist" comment="" />
+      <created>1560739790934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560739790934</updated>
+      <workItem from="1560739792908" duration="1177000" />
+      <workItem from="1560741043521" duration="4553000" />
+      <workItem from="1560749488645" duration="505000" />
+      <workItem from="1560823953403" duration="3844000" />
+      <workItem from="1561285099216" duration="7745000" />
+      <workItem from="1561340703341" duration="45000" />
+      <workItem from="1561383139296" duration="981000" />
+      <workItem from="1561427229845" duration="1210000" />
+      <workItem from="1561428622774" duration="5538000" />
+      <workItem from="1561439779122" duration="1773000" />
+      <workItem from="1561451186840" duration="10585000" />
+      <workItem from="1561469219928" duration="680000" />
+      <workItem from="1561475136633" duration="3567000" />
+      <workItem from="1561513725010" duration="102000" />
+      <workItem from="1561513851467" duration="7222000" />
+      <workItem from="1561522044302" duration="6412000" />
+      <workItem from="1561653572123" duration="1474000" />
+      <workItem from="1561655098792" duration="157000" />
+      <workItem from="1561687762927" duration="14000" />
+      <workItem from="1561690773944" duration="2593000" />
+      <workItem from="1561901230393" duration="1889000" />
+      <workItem from="1561946415052" duration="1044000" />
+      <workItem from="1562245921074" duration="2980000" />
+      <workItem from="1562465747648" duration="2956000" />
+      <workItem from="1562483795570" duration="615000" />
+      <workItem from="1562581118948" duration="1004000" />
+      <workItem from="1563157319019" duration="3954000" />
+      <workItem from="1563165199685" duration="93000" />
+      <workItem from="1563167209405" duration="722000" />
+      <workItem from="1563168316428" duration="630000" />
+    </task>
+    <task id="LOCAL-00001" summary="first try">
+      <created>1560740081010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560740081010</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first try">
+      <created>1560740387952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560740387952</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JDK动态代理">
+      <created>1560744984343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560744984343</updated>
+    </task>
+    <task id="LOCAL-00004" summary="redis 安装">
+      <created>1560825846465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560825846465</updated>
+    </task>
+    <task id="LOCAL-00005" summary="redis 安装">
+      <created>1560826061928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560826061928</updated>
+    </task>
+    <task id="LOCAL-00006" summary="redis 安装">
+      <created>1560826119296</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560826119296</updated>
+    </task>
+    <task id="LOCAL-00007" summary="redis 安装">
+      <created>1561286809533</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561286809533</updated>
+    </task>
+    <task id="LOCAL-00008" summary="redis 安装">
+      <created>1561287689911</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561287689911</updated>
+    </task>
+    <task id="LOCAL-00009" summary="redis 安装">
+      <created>1561287777787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561287777787</updated>
+    </task>
+    <task id="LOCAL-00010" summary="redis 安装">
+      <created>1561288387301</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561288387301</updated>
+    </task>
+    <task id="LOCAL-00011" summary="redis 安装">
+      <created>1561288433804</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561288433804</updated>
+    </task>
+    <task id="LOCAL-00012" summary="redis 安装">
+      <created>1561288782865</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561288782865</updated>
+    </task>
+    <task id="LOCAL-00013" summary="redis 安装">
+      <created>1561288935987</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561288935987</updated>
+    </task>
+    <task id="LOCAL-00014" summary="redis 安装">
+      <created>1561289098246</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561289098246</updated>
+    </task>
+    <task id="LOCAL-00015" summary="redis 安装">
+      <created>1561289997506</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1561289997506</updated>
+    </task>
+    <task id="LOCAL-00016" summary="redis 安装">
+      <created>1561290057239</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561290057239</updated>
+    </task>
+    <task id="LOCAL-00017" summary="redis 安装">
+      <created>1561292704553</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561292704553</updated>
+    </task>
+    <task id="LOCAL-00018" summary="redis 安装">
+      <created>1561293024866</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1561293024866</updated>
+    </task>
+    <task id="LOCAL-00019" summary="redis 安装">
+      <created>1561293141817</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561293141817</updated>
+    </task>
+    <task id="LOCAL-00020" summary="redis 安装">
+      <created>1561293257406</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1561293257406</updated>
+    </task>
+    <task id="LOCAL-00021" summary="redis 安装">
+      <created>1561293605606</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1561293605606</updated>
+    </task>
+    <task id="LOCAL-00022" summary="redis 安装">
+      <created>1561383235258</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1561383235258</updated>
+    </task>
+    <task id="LOCAL-00023" summary="redis 安装">
+      <created>1561383315545</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1561383315545</updated>
+    </task>
+    <task id="LOCAL-00024" summary="redis 安装">
+      <created>1561383629923</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1561383629923</updated>
+    </task>
+    <task id="LOCAL-00025" summary="redis 安装">
+      <created>1561383762879</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1561383762879</updated>
+    </task>
+    <task id="LOCAL-00026" summary="redis 安装">
+      <created>1561433147588</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1561433147589</updated>
+    </task>
+    <task id="LOCAL-00027" summary="redis 安装">
+      <created>1561433218272</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1561433218272</updated>
+    </task>
+    <task id="LOCAL-00028" summary="redis 安装">
+      <created>1561433292363</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1561433292363</updated>
+    </task>
+    <task id="LOCAL-00029" summary="redis 安装">
+      <created>1561443127249</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1561443127249</updated>
+    </task>
+    <task id="LOCAL-00030" summary="redis 安装">
+      <created>1561654865244</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1561654865244</updated>
+    </task>
+    <task id="LOCAL-00031" summary="redis 安装">
+      <created>1561654901761</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1561654901761</updated>
+    </task>
+    <task id="LOCAL-00032" summary="我心乱如麻">
+      <created>1561655026393</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1561655026393</updated>
+    </task>
+    <task id="LOCAL-00033" summary="我心乱如麻">
+      <created>1561655174292</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1561655174292</updated>
+    </task>
+    <task id="LOCAL-00034" summary="最近下班有点晚">
+      <created>1562248889063</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1562248889063</updated>
+    </task>
+    <task id="LOCAL-00035" summary="最近下班有点晚">
+      <created>1562466397110</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1562466397110</updated>
+    </task>
+    <task id="LOCAL-00036" summary="最近下班有点晚">
+      <created>1562466546045</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1562466546045</updated>
+    </task>
+    <task id="LOCAL-00037" summary="最近下班有点晚">
+      <created>1562466610148</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1562466610148</updated>
+    </task>
+    <task id="LOCAL-00038" summary="最近下班有点晚">
+      <created>1562466830616</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1562466830616</updated>
+    </task>
+    <task id="LOCAL-00039" summary="最近下班有点晚">
+      <created>1562466960542</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1562466960542</updated>
+    </task>
+    <task id="LOCAL-00040" summary="最近下班有点晚">
+      <created>1562468521128</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1562468521128</updated>
+    </task>
+    <task id="LOCAL-00041" summary="最近下班有点晚">
+      <created>1562469949332</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1562469949332</updated>
+    </task>
+    <task id="LOCAL-00042" summary="你">
+      <created>1562581414588</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1562581414588</updated>
+    </task>
+    <task id="LOCAL-00043" summary="你">
+      <created>1562581517322</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1562581517322</updated>
+    </task>
+    <task id="LOCAL-00044" summary="你">
+      <created>1563157848519</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1563157848520</updated>
+    </task>
+    <task id="LOCAL-00045" summary="你">
+      <created>1563158460698</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1563158460698</updated>
+    </task>
+    <task id="LOCAL-00046" summary="你">
+      <created>1563168344400</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1563168344400</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76064000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-255" y="-1088" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30819672" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35900217" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.36334056" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.4773071" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first try" />
+    <MESSAGE value="JDK动态代理" />
+    <MESSAGE value="redis 安装" />
+    <MESSAGE value="我心乱如麻" />
+    <MESSAGE value="最近下班有点晚" />
+    <MESSAGE value="你" />
+    <option name="LAST_COMMIT_MESSAGE" value="你" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/CodeDemo/src/main/java/Test/Redis缓存/RedisConfig.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/CodeDemo/src/main/java/Test/Redis缓存/RedisConfig.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_site/img/post-bg-unix-linux.jpg" />
+    <entry file="file://$PROJECT_DIR$/_site/img/post-bg-js-version.jpg" />
+    <entry file="file://$PROJECT_DIR$/_site/img/post-bg-js-module.jpg" />
+    <entry file="file://$PROJECT_DIR$/_site/img/tag-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/_site/img/timg.jpg" />
+    <entry file="file://$PROJECT_DIR$/_site/image/redis.png" />
+    <entry file="file://$PROJECT_DIR$/_site/img/about-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/_site/img/avatar-hux.jpg" />
+    <entry file="file://$PROJECT_DIR$/_site/img/contact-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/less/hux-blog.less" />
+    <entry file="file://$PROJECT_DIR$/less/mixins.less" />
+    <entry file="file://$PROJECT_DIR$/less/sidebar.less" />
+    <entry file="file://$PROJECT_DIR$/img/contact-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/404.html" />
+    <entry file="file://$PROJECT_DIR$/img/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/img/post-bg-unix-linux.jpg" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/img/redis.png" />
+    <entry file="file://$PROJECT_DIR$/about.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown" />
+    <entry file="file://$PROJECT_DIR$/_posts/2019-06-25-JDK动态代理-2019.markdown" />
+    <entry file="file://$PROJECT_DIR$/CodeDemo/src/test/java/Test/Redis缓存/RedisConfigTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="115" column="49" lean-forward="true" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeDemo/src/main/java/Test/1.txt" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.8.2/redisson-3.8.2.jar!/org/redisson/spring/cache/CacheConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-06-25-RedisSetup-2019.markdown" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar!/org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="53" column="150" selection-start-line="53" selection-start-column="150" selection-end-line="53" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.19.RELEASE/spring-context-support-4.3.19.RELEASE.jar!/org/springframework/cache/guava/GuavaCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.19.RELEASE/spring-context-support-4.3.19.RELEASE.jar!/org/springframework/cache/guava/GuavaCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeDemo/src/main/java/Test/Redis缓存/RedisTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/cache/CacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeDemo/src/main/java/Test/Redis缓存/RedisService.java" />
+    <entry file="file://$PROJECT_DIR$/_posts/2019-06-25-SpringBoot整合Redis-2019.markdown" />
+    <entry file="file://$PROJECT_DIR$/CodeDemo/src/main/java/Test/Application.java" />
+    <entry file="file://$PROJECT_DIR$/CodeDemo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/CodeDemo/src/main/java/Test/JDK动态代理/StudentServiceImpl.java" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.19.RELEASE/spring-context-support-4.3.19.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeDemo/src/main/java/Test/Redis缓存/RedisConfig.java" />
+    <entry file="file://$PROJECT_DIR$/CodeDemo/src/main/java/Test/JDK动态代理/ProxyTest.java" />
+    <entry file="file://$PROJECT_DIR$/CodeDemo/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/CodeDemo/src/main/resources/redisson.yml" />
+    <entry file="file://$PROJECT_DIR$/img/touxiang.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/home-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/avatar-hux.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/about-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/_posts/2019-07-04-Jexl3学习-2019.markdown" />
+    <entry file="file://$PROJECT_DIR$/_posts/2019-06-27-喜欢与爱-2019.markdown" />
+    <entry file="file://$PROJECT_DIR$/_config.yml" />
+    <entry file="file://$PROJECT_DIR$/_posts/2019-06-28-Linux命令积累-2019.markdown" />
+    <entry file="file://$PROJECT_DIR$/_posts/2019-07-15-设计模式-策略模式-2019.markdown" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.58441556" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.58441556" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>learningRoad</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.58441556" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.58441556" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
